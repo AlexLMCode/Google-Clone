@@ -29,6 +29,10 @@ header nav .nav-right-section {
   align-items: center;
 }
 
+header nav .nav-right-section a:hover {
+  text-decoration: underline;
+}
+
 nav .nav-right-section a {
   margin-right: 13px;
   color: #000000;
@@ -41,6 +45,7 @@ nav .nav-right-section .menu-icon {
   background-size: contain;
   width: 45px;
   height: 30px;
+  cursor: pointer;
 }
 
 nav .nav-right-section img {
@@ -89,7 +94,7 @@ main .main-input-container:hover {
 }
 
 main .main-input .search-icon {
-  background-image: url('/assets/search-icon.png');
+  background-image: url("/assets/search-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -98,7 +103,7 @@ main .main-input .search-icon {
 }
 
 main .main-input .mic-icon {
-  background-image: url('/assets/micro-icon.png');
+  background-image: url("/assets/micro-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
